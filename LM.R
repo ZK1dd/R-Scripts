@@ -1,0 +1,5 @@
+MyData <- read_csv("/Users/ZacharyKidd/Desktop/Senior year classes/Math 440/mydata.csv")
+plot(MyData$x,MyData$y,main = "Linear Model of MyData",xlab = "X",ylab = "Y")
+simple.lm<-lm(MyData$x~MyData$y,data=MyData)
+summary(simple.lm)
+abline(lm(MyData$y~MyData$x),col="blue")
