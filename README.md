@@ -1,4 +1,4 @@
-# R-cript
+# R-script
 #
 # LMtest - sample linear model creation.
 #
